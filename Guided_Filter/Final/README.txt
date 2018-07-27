@@ -1,0 +1,9 @@
+GuidedFilter.m、GuidedFilterColor.m分別是用灰階圖片做guidance跟彩色圖片做guidance的兩種實作方式。
+BoxFilter.m則是用來加速Guided Filter的一個技巧。
+bfilter2則是網路上找來的bilateral filter，用來在Detail Enhancement的部分跟Guided Filter做比較。
+
+testSmoothing.m是用來測試灰階圖片的Edge Preserve Filtering。
+testColorGuide.m是用來比較灰階跟彩色圖當Guidance Image時不同用的。
+testEnhancement.m是用來測試Detail Enhancement用的。
+testStructure.m是用來測試Structure Transfer用的
+testFlash.m則是用來測試flash/no flash denoising用的。
